@@ -1,0 +1,93 @@
+<!--
+Copyright 2018 Google LLC. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+==============================================================================
+-->
+
+<!doctype html>
+
+<head>
+  <title>TensorFlow.js: Using a pretrained MobileNet</title>
+  <meta charset="UTF-8">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="tfjs-examples.css" />
+</head>
+
+<style>
+  .pred-container {
+    margin-bottom: 20px;
+  }
+
+  .pred-container > div {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+
+  .row {
+    display: table-row;
+  }
+  .cell {
+    display: table-cell;
+    padding-right: 20px;
+  }
+
+  #file-container {
+    margin-bottom: 20px;
+  }
+</style>
+
+<body>
+  <div class="tfjs-example-container">
+    <section class='title-area'>
+      <h1>ChisinauAI: Clasificarea Covid19 folosind radiografia plaminilor</h1>
+    </section>
+
+    <section>
+      <p class='section-head'>Descrierea</p>
+      <p>
+        Acest Demo foloseste modelul antrenat folosind reteaua neuronala MobileNet_25_224. Gasiti codul 
+        <a target='_black' href="https://github.com/chisinau-ai/chisinau-ai.github.io">aici</a>. Radiografii cu Covid19 gasiti <a  target='_black'  href="https://github.com/ieee8023/covid-chestxray-dataset">aici</a>, iar imagini fara covid19 gasiti <a  target='_black'  href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia">aici</a>.
+      </p>
+      <p>
+        Autor  <a  target='_black' 
+          href="https://www.linkedin.com/in/ion-mosnoi/">Moșnoi Ion</a> 
+      </p>
+      <p>
+          Alaturi-te grupului nostru pe facebook <a  target='_black' 
+            href="https://www.facebook.com/groups/420138228621611/">aici</a></p>
+      </p>
+    </section>
+
+    <section>
+      <p class='section-head'>Status</p>
+      <div id="status"></div>
+    </section>
+
+    <section>
+      <p class='section-head'>Model Output</p>
+
+      <div id="file-container" style="display: none">
+        Upload an image: <input type="file" id="files" name="files[]" multiple />
+      </div>
+
+      <div id="predictions"></div>
+
+      <img style="display: none" id="cat" src="images/covid1.jpg" width=224 height=224 />
+    </section>
+
+    <script src="index.js"></script>
+  </div>
+</body>
