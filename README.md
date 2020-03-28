@@ -2,7 +2,7 @@
 
 Autor (Mosnoi Ion)[https://www.linkedin.com/in/ion-mosnoi/]
 
-Alaturi-te grupului nostru pe facebook [aici](https://www.facebook.com/groups/420138228621611/).
+Alatura-te grupului nostru pe facebook [aici](https://www.facebook.com/groups/420138228621611/).
 
 [Incearca live aici!](https://chisinau-ai.github.io)
 

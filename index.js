@@ -21,7 +21,7 @@ var MOBILENET_MODEL_PATH =  'model/tfjs_model/model.json'
 
 const IMAGE_SIZE = 224;
 const TOPK_PREDICTIONS = 3;
-const IMAGENET_CLASSES = ['Normal','Pneumoni1','','Covid19']
+const IMAGENET_CLASSES = ['Normal','Pneumonie','','Covid19']
 
 let mobilenet;
 const mobilenetDemo = async () => {
