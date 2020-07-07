@@ -4,7 +4,7 @@ Autor [Mosnoi Ion](https://www.linkedin.com/in/ion-mosnoi/)
 
 Alatura-te grupului nostru pe facebook [aici](https://www.facebook.com/groups/420138228621611/).
 
-[Incearca live aici!](https://chisinau-ai.github.io)
+[Incearca live aici!](https://inteligenta-artificiala-in-actiune.github.io/covid19-radiografii-predictie/)
 
 
 Articolul original si codul retelei neuronale Covid-net gasiti [aici](https://github.com/lindawangg/COVID-Net)
